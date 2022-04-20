@@ -1,0 +1,308 @@
+body{
+    margin: 0px;
+    
+    ;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+
+
+}
+
+@media only screen and  (max-width: 320px) {
+ul{
+    width: 363px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px;
+}
+}
+
+li a{
+    margin: 15px;
+    list-style: none;
+    text-decoration: none   ;
+    color: rgba(0,0,0,0.87);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.gmail :hover{
+    text-decoration: underline;
+}
+.imagenes  :hover{
+    text-decoration: underline;
+}
+
+li img{
+    height: 18px;
+    width: 18px;
+    background-position:fixed;
+}
+
+li .login{
+    background: #4285f4;
+    border-radius: 4px;
+    padding: 9px 23px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    margin-left: 8px;
+}
+
+@media only screen and  (max-width: 480px) {
+    li a{
+        font-size: 12px;
+    }
+    li .login {
+        background: #4285f4;
+        border-radius: 4px;
+        padding: 9px 23px;
+        border: 1px solid transparent;
+        color: #fff;
+        font-weight: 500;
+        font-size: 8px;
+        text-align: center;
+        letter-spacing: 0.25px;
+        margin-left: 8px;
+    }
+}
+
+
+@media only screen and  (max-width: 320px) {
+    li .login {
+        background: #4285f4;
+        border-radius: 4px;
+        padding: 9px 23px;
+        border: 1px solid transparent;
+        color: #fff;
+        font-weight: 500;
+        font-size: 8px;
+        text-align: center;
+        letter-spacing: 0.25px;
+        margin-left: 8px;
+    }
+}
+
+.puntos {
+    height: 100px;
+    width: 100px;
+}
+
+
+.puntos :hover{
+    background: #a1a1a1;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 70px;
+    
+}
+
+section .logo img{
+    width: 272px;
+    height: 92px;
+    
+}
+
+@media only screen and  (max-width: 480px) {
+    section .logo img{
+        width: 200px;
+        height: 80px;
+        
+    }
+}
+
+@media only screen and  (max-width: 320px) {
+    section .logo img{
+        width: 200px;
+        height: 80px;
+        
+    }
+}
+
+input{
+    width: 487px;
+    height: 34px;
+    margin-top: 28px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.buscador{
+    width: auto;
+    max-width: 584px;
+    height: 46px;
+    background: white;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+@media only screen and  (max-width: 480px) {
+.buscador{
+    max-width: 340px;
+} 
+}
+
+@media only screen and  (max-width: 320px) {
+    .buscador{
+        max-width: 340px;
+    }
+}
+
+.lupa{
+    margin-left: 8px;
+    padding: 5px;
+    
+}
+.lupita{
+    width: 20px;
+    height: 20  px;
+}
+
+.microfono{
+    width: 70px;
+    height: 70px;
+    background: url(../img/microfono7.svg) center center no-repeat;
+    background-size:cover;
+    margin-right: 6px;
+
+}
+.buscar{
+    width: 582px;
+    height: 94px;
+}
+
+@media only screen and  (max-width: 480px) {
+    .buscar {
+        width: 260px;
+        height: 94px;
+    }
+}
+@media only screen and  (max-width: 320px) {
+    .buscar {
+        width: 260px;
+        height: 94px;
+    }
+}
+
+.botones{
+    height: 84px;
+    width: 584px;
+    top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.botones button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 15px 4px;
+    padding: 0 16px;
+    color:  #3c4043;
+    line-height:27px;
+    text-align: center;
+    cursor: pointer;
+    height: 36px;
+    min-width: 54px;
+}
+
+
+@media only screen and  (max-width: 480px) {
+    .botones button{
+        font-size: 12px;
+    }
+}
+
+@media only screen and  (max-width: 320px) {
+    .botones button{
+        font-size: 12px;
+    }
+}
+.botones :hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    height: 103px;
+    background: #f2f2f2;
+    margin-top: 218px;
+    
+}
+footer p{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-family: arial, sans-serif;
+    }
+
+
+.footerA{
+    padding-left: 10px;
+    
+}
+.footerA a{
+color: #70757a;
+padding: 15px;
+margin: 0px;
+text-decoration: none;
+white-space: nowrap;
+font-size: 14px;
+font-family: arial, sans-serif;
+}
+.footerA :hover{
+    text-decoration: underline;
+}
+.footerB a{
+    color: #70757a;
+padding: 15px;
+text-decoration: none;
+white-space: nowrap;
+font-size: 14px;
+font-family: arial, sans-serif;
+margin: 0px;
+}
+.footerB :hover{
+text-decoration: underline;
+}
+.footers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
